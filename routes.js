@@ -13,4 +13,5 @@ routes
 .add('/producer/:address/Requests', 'Requests/View/prodView')
 .add('/provider/:address/Requests', 'Requests/SentReq/provider')
 .add('/purchaser/:address/Requests/SentRequests', 'Requests/SentReq/purchaser')
+.add('/provider/:address/Requests/SentRequests', 'Requests/SentReq/provider')  
 module.exports = routes;
