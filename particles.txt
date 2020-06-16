@@ -1,0 +1,1 @@
+<ParticlesBg type="cobweb" bg={true} color="#FFFFFF" />
