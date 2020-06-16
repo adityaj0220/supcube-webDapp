@@ -7,6 +7,7 @@ Web DApp for Supply chain management. Project aims to resolve issues surrounding
 ## Development Environment
 
 ReactJS - Front-End
+
 Solidity and Ethereum - Backend and Contracts
 
 
