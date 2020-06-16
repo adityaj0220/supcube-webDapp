@@ -3,6 +3,6 @@ import User from '../build/User.json';
 
 const instance = new web3.eth.Contract(
     User.abi,
-    '0x89961c14320A6b80899241514781eC0B27041D68'
+    '0xdCadb4E7783b297b1a0A3cD7c01C126808aD4c7e'
 );
 export default instance;

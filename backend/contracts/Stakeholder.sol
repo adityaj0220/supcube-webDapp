@@ -47,7 +47,7 @@ contract User
     {
         //require(checkArray[msg.sender]);
         //require(keccak256(abi.encodePacked(sdet[index[msg.sender]].password)) == keccak256(abi.encodePacked(pass)));
-        return ("True",sdet[index[jk]].profile);
+        return (sdet[index[jk]].password,sdet[index[jk]].profile);
        }
 }
 

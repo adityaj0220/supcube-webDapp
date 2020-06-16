@@ -37,7 +37,7 @@ class User extends React.Component
       console.log(pass);
       const pr = pass[1];
       console.log(pr);
-      if(pass[0] == "True")
+      if(pass[0] == this.state.Userpass)
       {
       pr == "Producer" ?
       Router.pushRoute(`/Producer/${this.state.Useradd}`):
