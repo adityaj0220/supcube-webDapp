@@ -64,8 +64,8 @@ class File extends React.Component {
             <div>
             <Form onSubmit ={this.onSubmit}>
                 <Form.Field>
-                    <label>
-                    style={{color:'white'}} Upload shipment here :
+                    <label  style={{color:'white'}}>
+                    Upload shipment here :
                     </label>
                     <Input type='File' onChange={this.capture}/>
                 </Form.Field>

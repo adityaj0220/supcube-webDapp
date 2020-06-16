@@ -30,7 +30,7 @@ class ShipmentNew extends React.Component {
         .send({
             from: accounts[0]
         });
-       // setTimeout(Router.pushRoute(`/provider/${accounts[0]}/Requests/SentRequests`),3000);
+        setTimeout(Router.pushRoute(`/provider/${accounts[0]}/Requests/SentRequests`),3000);
     }catch(err)
     {
         this.setState({errorMsg: err.message});
