@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import user from '../backend/contractInstances/user';
 import web3 from '../backend/web3';
 import { Router } from '../routes';
-import ParticlesBg from 'particles-bg';
+//import ParticlesBg from 'particles-bg';
 class User extends React.Component
 {
   state = {
@@ -18,7 +18,7 @@ class User extends React.Component
   onSubmit = async (event) =>
   {
       event.preventDefault();
-      this.setState({loading: true, errorMsg: 'Creating..'})
+      this.setState({loading: true, errorMsg: 'Creating...'})
 
       try{
       const accounts = await web3.eth.getAccounts();
@@ -73,7 +73,7 @@ else
             onChange={event => this.setState ({ Userpass: event.target.value })}
           />
           {this.state.errorMsg==="success" ? <Message positive header="Account Status" content="Your account has been created!"></Message>:
-                (this.state.errorMsg==='Creating...') ? <Message positive header="Account" content="Please wait while we set up your account"></Message>:
+                (this.state.errorMsg==='Creating...') ? <Message positive header="Hold on!" content="Please wait while we set up your account"></Message>:
                 <Message
                 error
                 header="Please enter valid address or check the profile name again!"
