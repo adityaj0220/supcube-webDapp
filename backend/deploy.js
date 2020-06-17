@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const compiledContract = require('./build/User.json');
 
 const provider = new HDWalletProvider(
-  'hen run basket employ smoke unaware bottom slide breeze armed lake cart',
-  'https://rinkeby.infura.io/v3/5c442a0b72e44cc189143b4e35c16546'
+  'Your Ethereum 12 word mnemonic',
+  'Rinkeby Link'
 );
 
 const web3 = new Web3(provider);
