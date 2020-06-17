@@ -9,7 +9,7 @@ if(typeof window !== 'undefined' && typeof window.web3 !=='undefined')
 else
 {
     const provider = new Web3.providers.HttpProvider(
-        'https://rinkeby.infura.io/v3/5c442a0b72e44cc189143b4e35c16546'
+        'Your Rinkeby Address'
     );
     web3 = new Web3(provider);
 }
