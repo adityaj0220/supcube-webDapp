@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const compiledContract = require('./build/User.json');
 
 const provider = new HDWalletProvider(
-  'Your Ethereum 12 word mnemonic',
+  'Your 12 word mnemonic',
   'Rinkeby Link'
 );
 
